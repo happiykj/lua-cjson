@@ -47,6 +47,9 @@ typedef struct {
 #ifndef STRBUF_DEFAULT_INCREMENT
 #define STRBUF_DEFAULT_INCREMENT -2
 #endif
+#if defined(_WIN32) || defined(_WIN64)
+#define strncasecmp _strnicmp
+#endif
 
 /* Initialise */
 extern strbuf_t *strbuf_new(int len);
