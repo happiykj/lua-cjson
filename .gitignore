@@ -5,3 +5,8 @@ notes
 packages
 tags
 tests/utf8.dat
+/Win32/Release/*.log
+/Win32/Release/cjson.tlog/*.tlog
+/Win32/Release/cjson.tlog/*.lastbuildstate
+/Win32/Release/*.txt
+/Win32/Release/*.obj
